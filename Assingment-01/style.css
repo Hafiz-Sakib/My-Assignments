@@ -1,0 +1,182 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+}
+.dream {
+  color: #ff5f1f;
+}
+.for-border {
+  border-left: 5px solid #00008b;
+  border-radius: 3px;
+  border-bottom-left-radius: 0px;
+  border-collapse: separate;
+  font-size: 35px;
+  font-style: italic;
+}
+.first-paragraph {
+  text-align: justify;
+}
+.first-section {
+  background-image: url(images/bg/top-banner.png);
+  background-repeat: no-repeat;
+}
+.Dream {
+  color: #fa5f55;
+}
+.Contact {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  color: white;
+  font-weight: 700;
+  padding: 10px 40px;
+  border-radius: 7px;
+  font-size: small;
+}
+.first-section img {
+  width: 80%;
+  margin-left: 200px;
+}
+.first-section {
+  display: flex;
+  width: 80%;
+  padding: 80px;
+}
+.second-heading {
+  color: #00008b;
+  font-weight: 900;
+  font-size: 38px;
+  text-align: center;
+}
+#year {
+  color: #ff5f1f;
+}
+.illustrators {
+  margin-left: 80px;
+  width: 65%;
+}
+.second-paragraph {
+  text-align: justify;
+}
+.third-paragraph {
+  text-align: justify;
+}
+.fourth-paragraph {
+  text-align: justify;
+}
+.flex-row-item-one {
+  background-color: #edf5f6;
+  margin: 15px;
+  padding: 30px;
+  border-radius: 30px;
+}
+.flex-row-item-two {
+  background-color: #ffeeee;
+  margin: 15px;
+  padding: 30px;
+  border-radius: 30px;
+}
+.flex-row-item-three {
+  background-color: #fff4d6;
+  margin: 15px;
+  padding: 30px;
+  border-radius: 30px;
+}
+.flex-row-container {
+  display: flex;
+  margin-bottom: 100px;
+  padding: 100px;
+}
+.third-section {
+  display: flex;
+}
+.third-section {
+  font-weight: 600;
+  font-size: 25px;
+}
+.dev-limit {
+  color: #6047ec;
+}
+.without-limits {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 0;
+}
+.third-section img {
+  width: 250%;
+  margin-left: 50px;
+}
+.paragraph-container {
+  margin-left: 400px;
+  text-align: justify;
+  margin-bottom: 300px;
+}
+.fourth-section {
+  margin-top: -100px;
+}
+.community {
+  color: #622eef;
+  font-weight: 700;
+}
+.paragraph-part {
+  font-weight: 300;
+  text-align: justify;
+}
+.p-hero-tag {
+  font-size: 2em;
+}
+.second-last {
+  display: flex;
+  width: 50%;
+  margin: 100px;
+}
+.second-last img {
+  width: 400%;
+  margin-left: 150px;
+}
+.app {
+  color: red;
+  font-size: 40px;
+}
+#app {
+  font-size: 40px;
+}
+.last-heading {
+  text-align: center;
+}
+.team {
+  font-size: 40px;
+}
+.work {
+  font-size: 40px;
+  color: orangered;
+  font-size: 40px;
+}
+.last-part {
+  display: flex;
+  width: 100%;
+  margin-bottom: 120px;
+}
+.last-part img {
+  width: 375px;
+  margin-left: 175px;
+}
+.last-paragraph {
+  margin-left: 250px;
+  text-align: justify;
+}
+.shal {
+  color: red;
+}
+.mission {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: white;
+}
+.me {
+  text-align: center;
+  color: white;
+}
+.copyright {
+  background-color: #0b0d17;
+}

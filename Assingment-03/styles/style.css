@@ -1,0 +1,28 @@
+/* Font Styles Started */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Font styles Finished */
+.footer-background {
+  background-color: #0b0d17;
+}
+#bonus-one {
+  width: 546px;
+  height: 364px;
+}
+@media only screen and (max-width: 688px) {
+  #people {
+    width: 100%;
+  }
+  #highlighted {
+    margin-top: 40px;
+  }
+  .animated {
+    width: 100%;
+  }
+  #slidephoto {
+    height: 400px;
+  }
+}

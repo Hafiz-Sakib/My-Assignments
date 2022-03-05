@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500&family=Poppins:wght@400;500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  color: #d82e2f;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: -40px;
+}
+.money {
+  margin-top: 134px;
+  margin-left: 65px;
+  width: 100%;
+  height: 815px;
+}
+.grid-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.calculation {
+  margin-top: 130px;
+  margin-left: 100px;
+  background-color: #add8e6;
+}
+.income {
+  line-height: 26px;
+  margin-left: 200px;
+  margin-top: 10px;
+  color: #3dbe29;
+}
+.income-input {
+  font-weight: 500;
+  margin-left: 50px;
+}
+.expances {
+  line-height: 26px;
+  margin-left: 200px;
+  margin-top: 30px;
+  color: red;
+}
+.cloths-input {
+  font-weight: 500;
+  margin-left: 50px;
+}
+.cloths {
+  margin-left: -13px;
+}
+.box {
+  width: 40%;
+  height: 30px;
+  border-radius: 7px;
+  background-color: #e5e4e2;
+}
+.all-inputes {
+  margin-left: 50px;
+}
+.income-part,
+.expances-part {
+  margin-left: 40px;
+}
+.calculate {
+  margin-top: 40px;
+  margin-left: 170px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #59a5ff;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: 600;
+}
+.total-expances,
+.total-balance {
+  text-align: center;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+.save-money {
+  margin-left: 10px;
+  width: 10%;
+  height: 25px;
+  border-radius: 7px;
+  background-color: #e5e4e2;
+}
+.saving-money {
+  margin-bottom: 25px;
+  margin-left: 120px;
+}
+.save-button {
+  margin-top: 40px;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #59a5ff;
+}
+.saved-amount,
+.remaining-balance {
+  text-align: center;
+  margin-right: 50px;
+  margin-top: 1px;
+}
+#alert-paragraph1 {
+  display: none;
+  margin-left: 35px;
+}
+#alert-paragraph2 {
+  display: none;
+  margin-left: 80px;
+}
+#alert-paragraph3 {
+  display: none;
+  margin-left: 120px;
+}
+#alert-paragraph4 {
+  display: none;
+  margin-left: 10px;
+}
+#alert-paragraph5 {
+  display: none;
+  margin-left: 20px;
+}
+#alert-paragraph6 {
+  display: none;
+  margin-left: 0px;
+}
+
+/* Responsiveness For mobile Devices */
+@media only screen and (max-width: 688px) {
+  .header {
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 100%;
+    /* margin: auto; */
+  }
+  .money {
+    margin-left: auto;
+    margin-top: 50px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .calculation {
+    margin-top: 900px;
+    margin-left: -620px;
+  }
+  .total-expances {
+    margin-left: 10px;
+  }
+}

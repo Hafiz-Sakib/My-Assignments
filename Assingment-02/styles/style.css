@@ -1,0 +1,287 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+/* Common Styles */
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Navigation Styles Start */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.main-header {
+  margin-left: 120px;
+}
+.navigation a {
+  text-decoration: none;
+  color: black;
+  padding-left: 25px;
+}
+.navigation {
+  margin-top: 25px;
+  margin-right: 120px;
+}
+.fa-search,
+.fa-shopping-cart {
+  width: 24px;
+  height: 24px;
+  font-size: 20px;
+}
+#aus {
+  padding-right: 100px;
+}
+/* Navigation Styles End */
+.introduction {
+  display: flex;
+  margin-top: 75px;
+  margin-bottom: 150px;
+}
+.about-influencer {
+  text-align: justify;
+  width: 582px;
+  height: 270px;
+  padding-left: 60px;
+}
+.main-camera-image {
+  margin-left: 200px;
+}
+/* Animation Part started  */
+.main-camera-image:hover {
+  transform: scale(0.8) rotate(360deg);
+  transition: transform 3s linear;
+}
+.introduction:hover {
+  background-color: rgb(152, 251, 152);
+  transform: scale(1.1);
+}
+/* Animation Part Finished */
+.influencer {
+  color: red;
+}
+.contact {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 10px 24px 10px 15px;
+  background-color: #e02c6d;
+}
+/*................................................................................................ Logo Styels.......................................................................... */
+.brand-logos {
+  display: flex;
+  margin-top: 50px;
+  box-shadow: inset 0px 11px 8px -10px #ccc, inset 0px -11px 8px -10px #ccc;
+}
+.logo {
+  padding: 50px;
+}
+#alibaba {
+  padding-left: 75px;
+}
+/*...................................................................................... Product Styles...........................................................................................*/
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  margin-top: -100px;
+  justify-content: center;
+  padding: 171px 171px 0px 171px;
+}
+.collection-heading {
+  margin-top: 40px;
+  text-align: center;
+}
+.product {
+  /* position: absolute; */
+  width: 329px;
+  height: 490px;
+  line-height: 15px;
+  left: 196px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-left: 25px;
+  padding-top: 20px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+/* Animation Part Started */
+.product-image:hover {
+  transform: scale(0.8) rotate(360deg);
+  transition: transform 3s ease-in;
+}
+/* Animation finished */
+.product-detail {
+  font-size: 28px;
+}
+.price {
+  font-size: 24px;
+}
+.rating {
+  display: flex;
+}
+.fa-star.filled {
+  color: tomato;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
+.ratings-in-number {
+  padding-left: 10px;
+}
+.after-sales {
+  color: #787885;
+}
+/* ..................................................................................Third Section Ends Here!......................................................................................................................................................................................................................................................................................  */
+
+/* ...............................................................................Bonus Section Starts.Here!......................................................................................................................................................................................................................................................................................  */
+.bonus-section {
+  display: flex;
+  margin-top: 100px;
+}
+.info {
+  text-align: justify;
+  width: 60%;
+  height: 30x;
+  padding-right: 10px;
+  padding: 60px;
+}
+.Everything {
+  color: red;
+}
+.bonus-section img {
+  width: 90%;
+  margin-top: 120px;
+  margin-left: 50px;
+  margin-bottom: 200px;
+}
+/* ..........................................................................................Bonus Section ended................................................................. */
+/* ................................................................................copyright section started...................................................... */
+.copyright {
+  text-align: center;
+  color: white;
+  background-color: #0a0826;
+  padding-top: 30px;
+}
+.info-owner {
+  text-align: center;
+  margin-top: 20px;
+}
+.info-owner a {
+  color: blue;
+  text-decoration: none;
+}
+.social-media {
+  color: white;
+  font-size: 30px;
+  padding-top: -15px;
+}
+/* Media Queries For Mobile Devices Strated */
+@media only screen and (max-width: 688px) {
+  .main-header {
+    margin-left: 10px;
+  }
+  .navigation {
+    display: grid;
+    padding-left: 80px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 10px;
+  }
+  .fa-search,
+  .fa-shopping-cart {
+    padding-left: 20px;
+  }
+  .introduction {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-influencer {
+    width: 70%;
+  }
+  .main-camera-image {
+    margin-left: -35px;
+    margin-top: 200px;
+  }
+  .brand-logos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #alibaba {
+    margin-left: -75px;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .bonus-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .amazon-photo {
+    margin-top: -100px;
+  }
+  .info {
+    margin-top: -200px;
+  }
+}
+/* Media Queries For Mobile Devices Finished */
+
+/* Media Queries For Tablet Devices Strated  */
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+  .main {
+    max-width: 100%;
+  }
+  .main-header {
+    margin-left: 75px;
+  }
+  .navigation {
+    display: grid;
+    padding-left: 80px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+  }
+  .fa-search,
+  .fa-shopping-cart {
+    padding-left: 20px;
+  }
+  .introduction {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about-influencer {
+    width: 60%;
+  }
+  .main-camera-image {
+    margin-left: -35px;
+    margin-top: 250px;
+  }
+  .brand-logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #alibaba {
+    margin-left: -75px;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* margin-left: -150px; */
+  }
+  .bonus-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .amazon-photo {
+    margin-top: -150px;
+    margin-left: -50px;
+    width: 90%;
+  }
+  .info {
+    margin-top: -110px;
+    margin-left: -50px;
+    width: 75%;
+    text-align: justify;
+  }
+}
+/* Media Query For Tablet Device Finished */
