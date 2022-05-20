@@ -61,7 +61,7 @@ const Blogs = () => {
           <br />
           কিছু Inline Element এর উদাহরণ হলোঃ
           <ul className="text-red-500">
-            <li>1)anchor</li>
+            <li>1)a</li>
             <li>2)code</li>
             <li>3)abbr</li>
             <li>4)em</li>

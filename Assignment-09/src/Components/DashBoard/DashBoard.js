@@ -62,9 +62,9 @@ const DashBoard = () => {
   ];
 
   return (
-    <div>
-      <div className="md:flex gap-80 mt-14">
-        <div className="md:w-1/2 mt-24 ml-24 sm:w-full">
+    <div className="ml-8">
+      <div className="md:flex gap-4 mt-14">
+        <div className="w-full md:w-1/2 mt-24">
           <LineChart
             width={500}
             height={300}
@@ -91,7 +91,7 @@ const DashBoard = () => {
           </LineChart>
         </div>
 
-        <div className="md:w-1/2 sm:w-full">
+        <div className="w-full md:w-1/2 ">
           <AreaChart
             width={500}
             height={400}
@@ -117,8 +117,8 @@ const DashBoard = () => {
           </AreaChart>
         </div>
       </div>
-      <div className="md:flex gap-80 mt-14">
-        <div className="md:w-1/2 mt-24 ml-24 sm:w-full">
+      <div className="md:flex gap-4 mt-14">
+        <div className="w-full md:w-1/2 mt-24">
           <BarChart
             width={500}
             height={300}
@@ -140,7 +140,7 @@ const DashBoard = () => {
           </BarChart>
         </div>
 
-        <div className="md:w-1/2 mt-12 sm:w-full">
+        <div className="w-full md:w-1/2 mt-12 ml-6">
           <PieChart width={400} height={400}>
             <Pie
               data={data}

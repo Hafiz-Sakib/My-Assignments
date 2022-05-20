@@ -8,11 +8,11 @@ const HomePage = () => {
   return (
     <div>
       <div className="md:flex justify-center align-center mt-14">
-        <div className="md:ml-16 w-1/2 mt-24">
-          <h1 className="md:text-6xl font-semibold text-green-400 mb-4">
+        <div className="ml-24 md:ml-16 w-1/2 mt-24">
+          <h1 className="text-5xl md:text-6xl font-semibold text-green-400 mb-4">
             Best Laptop
           </h1>
-          <h1 className="md:text-6xl font-semibold text-black mb-8 ">
+          <h1 className="text-5xl md:text-6xl font-semibold text-black mb-8">
             Best Deal
           </h1>
           <p className="text-justify">
@@ -28,14 +28,15 @@ const HomePage = () => {
           <Link to={"/blogs"}>
             <button
               type="button"
-              class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-5"
+              className="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-5"
             >
               Read Blogs
             </button>
           </Link>
         </div>
-        <div className="md:w-1/2 mb-16 bg-white">
+        <div className="mr-24 mt-8 md:w-1/2 mb-16">
           <img
+            className="bg-red-500"
             src={
               "https://img.freepik.com/free-photo/young-blackhaired-man-demonstrating-something-bright-laptop_231208-2322.jpg?w=996&t=st=1649055273~exp=1649055873~hmac=966ad07e61beb3c855deca1352779b0f74630dbe9fb7e6749bb9f80138c88c86"
             }
@@ -49,7 +50,7 @@ const HomePage = () => {
             Customer's Reviews
           </h1>
         </div>
-        <div className="md:grid grid-cols-3">
+        <div className="md:grid grid-cols-3 text-sm">
           {reviews.slice(0, 3).map((review) => (
             <ReviewCard key={review.id} review={review}></ReviewCard>
           ))}
@@ -58,11 +59,11 @@ const HomePage = () => {
           <Link to={"/reviews"}>
             <button
               type="button"
-              class="text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800"
+              className="text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800"
             >
               See All Reviews
               <svg
-                class="w-5 h-5 ml-8 -mr-1"
+                className="w-5 h-5 ml-8 -mr-1"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
